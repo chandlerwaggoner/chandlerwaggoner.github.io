@@ -1,0 +1,22 @@
+@media (min-width: 767px) {
+  .navbar {
+    background-color: #243c42;
+    padding: 20px;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    border-bottom: none;
+  }
+
+  .top-nav-collapse {
+    padding: 0px;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav li a {
+  color: white;
+}
